@@ -1,4 +1,4 @@
-package br.com.schumaker.example4.server;
+package br.com.schumaker.example5.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -17,19 +17,18 @@ public class ServidorTarefas {
     public ServidorTarefas() throws IOException {
         System.out.println("---- Iniciando Servidor ----");
         this.servidor = new ServerSocket(12345);
+        
+        //ExecutorService threadPool = Executors.newCachedThreadPool(new FabricaDeThreads());
         this.threadPool = Executors.newFixedThreadPool(4, new FabricaDeThreads());
         this.estaRodando = new AtomicBoolean(true);
     }
 
     public void rodar() throws IOException {
-
         while (this.estaRodando.get()) {
             try {
                 Socket socket = this.servidor.accept();
                 System.out.println("Aceitando novo cliente na porta " + socket.getPort());
-
                 DistribuirTarefas distribuirTarefas = new DistribuirTarefas(threadPool, socket, this);
-
                 this.threadPool.execute(distribuirTarefas);
             } catch (SocketException e) {
                 System.out.println("SocketException, está rodando? " + this.estaRodando);
