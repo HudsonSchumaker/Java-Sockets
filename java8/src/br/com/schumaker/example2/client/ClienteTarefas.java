@@ -5,6 +5,10 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class ClienteTarefas {
 
     public static void main(String[] args) throws Exception {
