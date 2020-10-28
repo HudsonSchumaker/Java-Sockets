@@ -3,6 +3,10 @@ package br.com.schumaker.example3.client;
 import java.io.IOException;
 import java.net.Socket;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class RodaAplicacao {
 
     public static void main(String[] args) {
