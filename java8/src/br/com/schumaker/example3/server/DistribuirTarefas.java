@@ -4,6 +4,10 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class DistribuirTarefas implements Runnable {
 
     private final Socket socket;
