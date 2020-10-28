@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 /**
  *
- * @author hudsonschumaker
+ * @author hudson schumaker
  */
 public class Server {
 
