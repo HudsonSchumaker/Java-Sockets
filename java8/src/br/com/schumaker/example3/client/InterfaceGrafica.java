@@ -18,6 +18,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class InterfaceGrafica {
 
     private JFrame janela;
