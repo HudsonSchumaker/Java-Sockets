@@ -4,6 +4,10 @@ import java.io.PrintStream;
 import java.util.Random;
 import java.util.concurrent.Callable;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class ComandoC2AcessaBanco implements Callable<String> {
 
     private final PrintStream saida;
