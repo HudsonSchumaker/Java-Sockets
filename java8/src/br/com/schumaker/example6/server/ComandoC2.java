@@ -2,6 +2,10 @@ package br.com.schumaker.example6.server;
 
 import java.io.PrintStream;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class ComandoC2 implements Runnable {
 
     private final PrintStream saida;
