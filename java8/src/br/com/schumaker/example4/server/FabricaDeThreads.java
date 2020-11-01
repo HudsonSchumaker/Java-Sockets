@@ -2,6 +2,10 @@ package br.com.schumaker.example4.server;
 
 import java.util.concurrent.ThreadFactory;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class FabricaDeThreads implements ThreadFactory {
 
     private static int numero = 1;
