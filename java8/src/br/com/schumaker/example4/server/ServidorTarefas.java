@@ -8,6 +8,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class ServidorTarefas {
 
     private final ServerSocket servidor;
