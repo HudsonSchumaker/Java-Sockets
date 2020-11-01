@@ -5,6 +5,10 @@ import java.net.Socket;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class DistribuirTarefas implements Runnable {
 
     private final Socket socket;
