@@ -2,6 +2,10 @@ package br.com.schumaker.example6.server;
 
 import java.util.concurrent.BlockingQueue;
 
+/**
+ *
+ * @author hudson schumaker
+ */
 public class TarefaConsumir implements Runnable {
 
     private final BlockingQueue<String> filaComandos;
