@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class ServidorTarefas {
     
