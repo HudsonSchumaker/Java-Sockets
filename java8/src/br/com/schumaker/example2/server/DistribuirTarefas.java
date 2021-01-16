@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class DistribuirTarefas implements Runnable {
 
