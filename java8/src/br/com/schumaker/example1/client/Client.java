@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
  */
 public class Client {
 
@@ -22,10 +22,10 @@ public class Client {
         Thread sendMessages = new Thread(() -> {
             while (teclado.hasNextLine()) {
                 String linha = teclado.nextLine();
-                if (linha.trim().equals("")) { //se for vazio não vamos enviar nada para o servidor 
+                if (linha.trim().equals("")) { // se for vazio não vamos enviar nada para o servidor 
                     break;
                 }
-                saida.println(linha); //enviando para servidor
+                saida.println(linha); // enviando para servidor
             }
             saida.close();
             teclado.close();
